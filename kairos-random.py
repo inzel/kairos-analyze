@@ -3,7 +3,6 @@
 import requests
 import json
 from PIL import Image
-import Constants
 
 def getRandomPhotoUrl():
 	#url='http://tinyfac.es/api/users'
@@ -14,8 +13,8 @@ def getRandomPhotoUrl():
 
 def analyzeRandomPhoto():
 	headers = {
-		"app_id": Constants.api_id,
-		"app_key": Constants.api_key
+		"app_id": "*********",
+		"app_key": "************************"
 	}
 	
 	imageUrl = getRandomPhotoUrl()
